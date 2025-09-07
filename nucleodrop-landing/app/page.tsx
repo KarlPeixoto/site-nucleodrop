@@ -49,9 +49,9 @@ export default function HomePage() {
         <Header /> {/* header fixo no topo */}
         <main>
           <HeroSection />
-          <AboutMeSection />
           <AboutSystemSection />
           <NuclearMedicineSection />
+          <AboutMeSection />
           <ContactSection />
           <Footer />
         </main>

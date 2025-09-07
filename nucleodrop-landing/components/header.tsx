@@ -14,18 +14,20 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-sm">N</span>
-          </div>
+          <img
+            src="/logo.png" 
+            alt="Logo NúcleoDrop"
+            className="mx-auto mb-3 w-7"
+          />
           <span className="font-serif font-bold text-xl text-foreground">NúcleoDrop</span>
         </div>
 
         {/* Menu */}
         <nav className="hidden md:flex items-center space-x-6">
           <a href="#home" className="text-sm font-medium hover:text-primary transition-colors">Início</a>
-          <a href="#about-me" className="text-sm font-medium hover:text-primary transition-colors">Sobre Mim</a>
           <a href="#system" className="text-sm font-medium hover:text-primary transition-colors">Sistema</a>
           <a href="#nuclear-medicine" className="text-sm font-medium hover:text-primary transition-colors">Medicina Nuclear</a>
+          <a href="#about-me" className="text-sm font-medium hover:text-primary transition-colors">Sobre Mim</a>
           <a href="#contact" className="text-sm font-medium hover:text-primary transition-colors">Contato</a>
         </nav>
 

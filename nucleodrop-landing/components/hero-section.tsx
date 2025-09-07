@@ -21,6 +21,7 @@ export function HeroSection() {
             críticos da medicina nuclear.
           </p>
 
+          {/* Botoẽs para talvez usar no futuro */}
           {/* <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button size="lg" className="bg-[#A56DCF] hover:bg-[#A56DCF]/90 text-secondary-foreground" asChild>
               <a href="#contact" className="flex items-center gap-2">
@@ -36,24 +37,24 @@ export function HeroSection() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
             <div className="flex flex-col items-center text-center p-4">
-              <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-3">
-                <Shield className="h-6 w-6 text-primary" />
+              <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-3 border-1 border-[#A56DCF]">
+                <Shield className="h-6 w-6 text-[#A56DCF]" />
               </div>
               <h3 className="font-semibold mb-2">Segurança Total</h3>
               <p className="text-sm text-muted-foreground">Controle rigoroso de materiais radioativos</p>
             </div>
 
             <div className="flex flex-col items-center text-center p-4">
-              <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-3">
-                <Activity className="h-6 w-6 text-primary" />
+              <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-3 border-1 border-[#A56DCF]">
+                <Activity className="h-6 w-6 text-[#A56DCF]" />
               </div>
               <h3 className="font-semibold mb-2">Rastreabilidade</h3>
               <p className="text-sm text-muted-foreground">Acompanhamento completo do ciclo de vida</p>
             </div>
 
             <div className="flex flex-col items-center text-center p-4">
-              <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-3">
-                <Zap className="h-6 w-6 text-primary" />
+              <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-3 border-1 border-[#A56DCF]">
+                <Zap className="h-6 w-6 text-[#A56DCF]" />
               </div>
               <h3 className="font-semibold mb-2">Inovação</h3>
               <p className="text-sm text-muted-foreground">Tecnologia de ponta para medicina nuclear</p>
