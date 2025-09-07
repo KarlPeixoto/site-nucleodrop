@@ -6,9 +6,14 @@ export function HeroSection() {
     <section id="home" className="py-20 px-4">
       <div className="container mx-auto text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="font-serif font-bold text-4xl md:text-6xl text-balance mb-6">
-            Tecnologia em medicina nuclear, com <span className="text-primary">rastreabilidade</span> e{" "}
-            <span className="text-secondary">segurança</span>
+          <img
+            src="/logo.png" 
+            alt="Logo NúcleoDrop"
+            className="mx-auto mb-8 w-40"
+          />
+          <h1 className="font-serif font-bold text-3xl md:text-5xl text-balance mb-6">
+            Tecnologia em medicina nuclear, com <span style={{ textDecoration: "underline" }}>rastreabilidade</span> e{" "}
+            <span style={{ textDecoration: "underline" }}>segurança</span>
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground text-pretty mb-8 max-w-2xl mx-auto">
@@ -16,8 +21,8 @@ export function HeroSection() {
             críticos da medicina nuclear.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-secondary-foreground" asChild>
+          {/* <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+            <Button size="lg" className="bg-[#A56DCF] hover:bg-[#A56DCF]/90 text-secondary-foreground" asChild>
               <a href="#contact" className="flex items-center gap-2">
                 Fale Comigo
                 <ArrowRight className="h-4 w-4" />
@@ -27,7 +32,7 @@ export function HeroSection() {
             <Button size="lg" variant="outline" asChild>
               <a href="#system">Conheça o Sistema</a>
             </Button>
-          </div>
+          </div> */}
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
             <div className="flex flex-col items-center text-center p-4">

@@ -6,20 +6,20 @@
 :root {
   /* Updated color tokens to match NúcleoDrop watercolor design brief */
   --background: oklch(100% 0.00011 271.152); /* #FFFFFF - Primary background */
-  --foreground: oklch(0.35 0.02 240); /* #475569 - Text color */
+  --foreground: #4F483D; /* #475569 - Text color */
   --card: oklch(0.96 0.01 240); /* #F0F4F8 - Card background */
   --card-foreground: oklch(0.35 0.02 240); /* #475569 - Card text */
   --popover: oklch(0.97 0.02 120); /* #E8F5E9 - Popover background */
   --popover-foreground: oklch(0.35 0.02 240); /* #475569 - Popover text */
   --primary: oklch(0.85 0.12 220); /* #A6C8E0 - Primary elements */
   --primary-foreground: oklch(1 0 0); /* #FFFFFF - Text on primary */
-  --secondary: oklch(0.7 0.15 25); /* #FF6F61 - Accent color for CTAs */
+  --secondary: rgb(237, 117, 110); /* #FF6F61 - Accent color for CTAs */
   --secondary-foreground: oklch(1 0 0); /* #FFFFFF - Text on secondary */
   --muted: oklch(0.96 0.01 240); /* #F0F4F8 - Muted backgrounds */
   --muted-foreground: oklch(0.35 0.02 240); /* #475569 - Muted text */
   --accent: oklch(0.9 0.08 160); /* #A6C8E0 - Accent elements */
   --accent-foreground: oklch(0.35 0.02 240); /* #475569 - Text on accent */
-  --destructive: oklch(0.6 0.2 15); /* #FF4C4C - Destructive actions */
+  --destructive: #A56DCF; /* #FF4C4C - Destructive actions */
   --destructive-foreground: oklch(1 0 0); /* #FFFFFF - Text on destructive */
   --border: oklch(0.85 0.02 240); /* #D0D7E0 - Borders */
   --input: oklch(1 0 0); /* #FFFFFF - Input fields */
@@ -137,7 +137,7 @@
   width: 120vw;
   height: 120vh;
   border-radius: 50%;
-  background: radial-gradient(circle, rgb(139, 233, 177) 0%, rgba(126,208,219,0.35) 40%, rgba(79,172,254,0.25) 70%, transparent 70%);
+  background: radial-gradient(circle, rgb(110, 206, 148) 0%, rgba(126,208,219,0.35) 40%, rgba(79,172,254,0.25) 70%, transparent 70%);
   filter: blur(80px);
   opacity: 0.9;
   z-index: 0;

@@ -77,7 +77,7 @@ export function ContactSection() {
               Transforme sua radiofarmácia com tecnologia de ponta. Entre em contato hoje mesmo e descubra como o
               NúcleoDrop pode revolucionar seus processos.
             </p>
-            <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-secondary-foreground" asChild>
+            <Button size="lg" className="bg-[#A56DCF] hover:bg-[#A56DCF]/90 text-secondary-foreground" asChild>
               <a href="mailto:contato@nucleodrop.com.br" className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
                 Fale Comigo Agora

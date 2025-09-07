@@ -30,7 +30,7 @@ export function Header() {
         </nav>
 
         {/* Botão */}
-        <Button className="bg-secondary hover:bg-secondary/90 text-secondary-foreground" asChild>
+  <Button className="bg-[#A56DCF] hover:bg-[#A56DCF]/90 text-secondary-foreground" asChild>
           <a href="#contact">Fale Comigo</a>
         </Button>
       </div>
