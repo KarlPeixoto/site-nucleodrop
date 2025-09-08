@@ -23,7 +23,7 @@ export function AboutMeSection() {
                   </p>
 
                   <p className="text-muted-foreground mb-4">
-                   Foi assim que nasceu o <span className = "font-bold" >NúcleoDrop</span>: um sistema pensado para modernizar e otimizar os processos em radiofarmácias, garantindo segurança e eficiência em cada etapa do tratamento.
+                   Foi assim que desenvolvi o <span className = "font-bold" >NúcleoDrop</span>: um sistema pensado para modernizar e otimizar os processos em radiofarmácias, garantindo segurança e eficiência em cada etapa do tratamento.
                   </p>
 
                   <p className="text-muted-foreground">

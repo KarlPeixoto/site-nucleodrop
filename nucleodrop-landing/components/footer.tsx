@@ -6,10 +6,16 @@ export function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
-                  <span className="text-primary-foreground font-bold text-sm">N</span>
+                <div className="h-8 w-8 rounded-lg flex items-center justify-center">
+                  <img
+                    src="/logo.png"
+                    alt="Logo NúcleoDrop"
+                    className="mx-auto mb-4 w-20"
+                  />
                 </div>
-                <span className="font-serif font-bold text-xl">NúcleoDrop</span>
+                <span className="font-serif text-xl text-foreground font-normal">
+                  Núcleo<span className="font-bold">Drop</span>
+                </span>{" "}
               </div>
               <p className="text-muted-foreground text-sm">
                 Tecnologia em medicina nuclear, com rastreabilidade e segurança.
@@ -20,27 +26,42 @@ export function Footer() {
               <h4 className="font-semibold mb-4">Navegação</h4>
               <ul className="space-y-2 text-sm relative z-10">
                 <li>
-                  <a href="#home" className="text-muted-foreground hover:text-foreground transition-colors">
+                  <a
+                    href="#home"
+                    className="text-muted-foreground hover:text-foreground transition-colors"
+                  >
                     Início
                   </a>
                 </li>
                 <li>
-                  <a href="#system" className="text-muted-foreground hover:text-foreground transition-colors">
+                  <a
+                    href="#system"
+                    className="text-muted-foreground hover:text-foreground transition-colors"
+                  >
                     Sistema
                   </a>
                 </li>
                 <li>
-                  <a href="#nuclear-medicine" className="text-muted-foreground hover:text-foreground transition-colors">
+                  <a
+                    href="#nuclear-medicine"
+                    className="text-muted-foreground hover:text-foreground transition-colors"
+                  >
                     Medicina Nuclear
                   </a>
                 </li>
                 <li>
-                  <a href="#about-me" className="text-muted-foreground hover:text-foreground transition-colors">
+                  <a
+                    href="#about-me"
+                    className="text-muted-foreground hover:text-foreground transition-colors"
+                  >
                     Sobre Mim
                   </a>
                 </li>
                 <li>
-                  <a href="#contact" className="text-muted-foreground hover:text-foreground transition-colors">
+                  <a
+                    href="#contact"
+                    className="text-muted-foreground hover:text-foreground transition-colors"
+                  >
                     Contato
                   </a>
                 </li>
@@ -63,5 +84,5 @@ export function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

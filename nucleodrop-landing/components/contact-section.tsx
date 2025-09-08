@@ -94,7 +94,7 @@ export function ContactSection() {
             </Card> */}
           </div>
 
-          <div className="bg-gradient-to-r from-secondary/10 to-primary/10 rounded-2xl p-8 border border-secondary/20">
+          <div className="bg-card/transparent text-card-foreground gap-6 rounded-xl border py-6 shadow-sm">
             <h3 className="font-serif font-semibold text-2xl mb-4">
               Pronto para Inovar?
             </h3>
