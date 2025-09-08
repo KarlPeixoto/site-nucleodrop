@@ -1,5 +1,5 @@
-import { Card, CardContent } from "@/components/ui/card"
-import { User } from "lucide-react"
+import { Card, CardContent } from "@/components/ui/card";
+import { User } from "lucide-react";
 
 export function AboutMeSection() {
   return (
@@ -14,27 +14,30 @@ export function AboutMeSection() {
             <CardContent className="p-8 md:p-12">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div className="order-2 md:order-1">
-                  <h3 className="font-serif font-semibold text-2xl mb-4">Especialista em Tecnologia para Saúde</h3>
+                  <h3 className="font-serif font-semibold text-xl mb-4">
+                    Programador e Biomédico Imagenologista
+                  </h3>
 
                   <p className="text-muted-foreground mb-4">
-                    Com anos de experiência no desenvolvimento de soluções tecnológicas para o setor de saúde, dedico-me
-                    a criar sistemas que fazem a diferença na vida das pessoas.
+                    Com a experiência adquirida atuando em medicina nuclear, percebi a necessidade de soluções que reduzam desperdícios e aumentem a rastreabilidade por meio de gráficos e relatórios.
                   </p>
 
                   <p className="text-muted-foreground mb-4">
-                    O NúcleoDrop nasceu da necessidade de modernizar e otimizar os processos em radiofarmácias,
-                    garantindo segurança e eficiência em cada etapa do tratamento.
+                   Foi assim que nasceu o <span className = "font-bold" >NúcleoDrop</span>: um sistema pensado para modernizar e otimizar os processos em radiofarmácias, garantindo segurança e eficiência em cada etapa do tratamento.
                   </p>
 
                   <p className="text-muted-foreground">
-                    Acredito que a tecnologia deve ser uma aliada na busca por tratamentos mais seguros e eficazes na
-                    medicina nuclear.
+         Acredito que a tecnologia deve ser uma aliada na busca por tratamentos mais seguros e eficazes na medicina nuclear.
                   </p>
                 </div>
 
                 <div className="order-1 md:order-2 flex justify-center">
                   <div className="w-48 h-48 rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
-                    <User className="h-24 w-24 text-primary" />
+                    <img
+                      className="w-60 h-60 rounded-full"
+                      src="/minha-foto.jpeg"
+                      alt="Mateus"
+                    />
                     <div className="absolute inset-0 rounded-full border-2 border-dashed border-primary/30"></div>
                   </div>
                 </div>
@@ -44,5 +47,5 @@ export function AboutMeSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
