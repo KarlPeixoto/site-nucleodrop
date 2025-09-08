@@ -137,7 +137,7 @@
   width: 120vw;
   height: 120vh;
   border-radius: 50%;
-  background: radial-gradient(circle, rgb(110, 206, 148) 0%, rgba(126,208,219,0.35) 40%, rgba(79,172,254,0.25) 70%, transparent 70%);
+  background: radial-gradient(ellipse, #8dcca6 0%, rgba(126,208,219,0.35) 40%, rgba(79,172,254,0.25) 70%, transparent 70%);
   filter: blur(80px);
   opacity: 0.9;
   z-index: 0;
@@ -152,7 +152,7 @@
   top: 20%;
   left: 50%;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(139,233,177,0.9) 0%, rgba(126,208,219,0.2) 50%, transparent 60%);
+  background: radial-gradient(ellipse, rgba(185, 228, 202, 0.9) 0%, rgba(126,208,219,0.2) 50%, transparent 60%);
   filter: blur(60px);
   animation: float 25s ease-in-out infinite reverse;
   z-index: 0;
@@ -161,7 +161,7 @@
 .floating-dot {
   position: absolute;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(126,208,219,0.6), rgba(79,172,254,0.3));
+  background: radial-gradient(circle, rgba(106, 202, 214, 0.658), rgba(47, 154, 248, 0.514));
   z-index: -1;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;

@@ -20,8 +20,8 @@ export function NuclearMedicineSection() {
             <Card>
               <CardContent className="p-8">
                 <div className="flex items-start gap-4">
-                  <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-                    <Atom className="h-6 w-6 text-primary" />
+                  <div className="h-12 w-12 rounded-lg flex items-center justify-center flex-shrink-0 border-1 border-[#91BF2C]">
+                    <Atom className="h-6 w-6 text-[#91BF2C]" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-xl mb-3">O que são Radiofarmácos?</h3>
@@ -38,8 +38,8 @@ export function NuclearMedicineSection() {
             <Card>
               <CardContent className="p-8">
                 <div className="flex items-start gap-4">
-                  <div className="h-12 w-12 rounded-lg bg-secondary/10 flex items-center justify-center flex-shrink-0">
-                    <Heart className="h-6 w-6 text-secondary" />
+                  <div className="h-12 w-12 rounded-lg flex items-center justify-center flex-shrink-0 border-1 border-[#CC918D]">
+                    <Heart className="h-6 w-6 text-[#CC918D]" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-xl mb-3">Segurança em Primeiro Lugar</h3>
@@ -59,19 +59,19 @@ export function NuclearMedicineSection() {
               <h3 className="font-serif font-semibold text-2xl mb-6">Aplicações Clínicas</h3>
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
-                  <Brain className="h-5 w-5 text-primary" />
+                  <Brain className="h-5 w-5 text-[#A56DCF]" />
                   <span>Diagnóstico de doenças cardíacas e neurológicas</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <Microscope className="h-5 w-5 text-primary" />
+                  <Microscope className="h-5 w-5 text-[#A56DCF]" />
                   <span>Detecção precoce de tumores e metástases</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <Heart className="h-5 w-5 text-primary" />
+                  <Heart className="h-5 w-5 text-[#A56DCF]" />
                   <span>Avaliação da função de órgãos vitais</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <Atom className="h-5 w-5 text-primary" />
+                  <Atom className="h-5 w-5 text-[#A56DCF]" />
                   <span>Terapias direcionadas para câncer</span>
                 </div>
               </div>
