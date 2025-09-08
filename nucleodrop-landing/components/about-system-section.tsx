@@ -50,7 +50,7 @@ export function AboutSystemSection() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {features.map((feature, index) => (
-              <Card key={index} className="h-full hover:shadow-lg transition-shadow">
+              <Card key={index} className="h-full hover:shadow-2xl transition-shadow duration-300 relative z-10">
                 <CardHeader>
                   <div className="h-12 w-12 rounded-lg flex items-center justify-center mb-4 border-1 border-[#A56DCF]">
                     <feature.icon className="h-6 w-6 text-[#A56DCF]" />
