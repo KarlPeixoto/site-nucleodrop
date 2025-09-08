@@ -18,15 +18,10 @@ export function Footer() {
 
             <div>
               <h4 className="font-semibold mb-4">Navegação</h4>
-              <ul className="space-y-2 text-sm">
+              <ul className="space-y-2 text-sm relative z-10">
                 <li>
                   <a href="#home" className="text-muted-foreground hover:text-foreground transition-colors">
                     Início
-                  </a>
-                </li>
-                <li>
-                  <a href="#about-me" className="text-muted-foreground hover:text-foreground transition-colors">
-                    Sobre Mim
                   </a>
                 </li>
                 <li>
@@ -40,6 +35,11 @@ export function Footer() {
                   </a>
                 </li>
                 <li>
+                  <a href="#about-me" className="text-muted-foreground hover:text-foreground transition-colors">
+                    Sobre Mim
+                  </a>
+                </li>
+                <li>
                   <a href="#contact" className="text-muted-foreground hover:text-foreground transition-colors">
                     Contato
                   </a>
@@ -50,15 +50,15 @@ export function Footer() {
             <div>
               <h4 className="font-semibold mb-4">Contato</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>contato@nucleodrop.com.br</li>
-                <li>+55 (11) 99999-9999</li>
-                <li>São Paulo, Brasil</li>
+                <li>mateus.peixoto@nucleodrop.com.br</li>
+                <li>+55 (24) 98129-5645</li>
+                <li>Rio de Janeiro, Brasil</li>
               </ul>
             </div>
           </div>
 
           <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; 2024 NúcleoDrop. Todos os direitos reservados.</p>
+            <p>&copy; 2025 NúcleoDrop. Todos os direitos reservados.</p>
           </div>
         </div>
       </div>
