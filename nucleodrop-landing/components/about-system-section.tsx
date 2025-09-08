@@ -41,7 +41,7 @@ export function AboutSystemSection() {
       <div className="container mx-auto">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="font-serif font-bold text-3xl md:text-4xl text-balance mb-6">Sistema NúcleoDrop</h2>
+            <h2 className="font-serif font-bold text-3xl md:text-5xl text-balance mb-6">Sistema NúcleoDrop</h2>
             <p className="text-lg text-muted-foreground text-pretty max-w-2xl mx-auto">
               Uma solução completa e integrada para gestão de radiofarmácias, desenvolvida especificamente para atender
               às necessidades da medicina nuclear.
@@ -52,8 +52,8 @@ export function AboutSystemSection() {
             {features.map((feature, index) => (
               <Card key={index} className="h-full hover:shadow-lg transition-shadow">
                 <CardHeader>
-                  <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                    <feature.icon className="h-6 w-6 text-primary" />
+                  <div className="h-12 w-12 rounded-lg flex items-center justify-center mb-4 border-1 border-[#A56DCF]">
+                    <feature.icon className="h-6 w-6 text-[#A56DCF]" />
                   </div>
                   <CardTitle className="text-xl">{feature.title}</CardTitle>
                 </CardHeader>
@@ -65,9 +65,9 @@ export function AboutSystemSection() {
           </div>
 
           <div className="mt-16 text-center">
-            <Card className="bg-gradient-to-r from-primary/5 to-secondary/5 border-primary/20">
+            <Card className="bg-gradient-to-r from-primary/5 to-secondary/5 border-1 border-foreground">
               <CardContent className="p-8">
-                <h3 className="font-serif font-semibold text-2xl mb-4">Transforme sua radiofarmácia</h3>
+                <h3 className="font-serif font-semibold text-3xl mb-4">Transforme sua radiofarmácia</h3>
                 <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
                   O NúcleoDrop oferece uma experiência completa de gestão, desde o controle de estoque até a geração de
                   relatórios regulatórios, tudo em uma plataforma integrada e segura.
