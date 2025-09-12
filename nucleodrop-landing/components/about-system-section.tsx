@@ -5,9 +5,9 @@ export function AboutSystemSection() {
   const features = [
     {
       icon: Atom,
-      title: "Inteligencia Nuclear Integrada",
+      title: "Inteligência Nuclear Integrada",
       description:
-        "cálculos automáticos de decaimento e equilíbrio secular para resultados rápidos, confiáveis e auditáveis.",
+        "Cálculos automáticos de decaimento e equilíbrio secular para resultados rápidos, confiáveis e auditáveis.",
     },
     {
       icon: Activity,

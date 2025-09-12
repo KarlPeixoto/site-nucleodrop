@@ -24,7 +24,7 @@ export function NuclearMedicineSection() {
                     <Atom className="h-6 w-6 text-[#91BF2C]" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-xl mb-3">O que são Radiofarmácos?</h3>
+                    <h3 className="font-semibold text-xl mb-3">O que são Radiofármacos?</h3>
                     <p className="text-muted-foreground">
                       Medicamentos que contêm elementos radioativos, utilizados para diagnóstico por imagem e tratamento
                       de diversas condições médicas. Cada radiofármaco é desenvolvido para se concentrar em órgãos ou
