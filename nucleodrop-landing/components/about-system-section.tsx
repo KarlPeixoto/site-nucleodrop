@@ -1,13 +1,13 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Shield, Activity, Zap, Database, Users, FileCheck } from "lucide-react"
+import { Atom, Activity, Zap, Database, Users, FileCheck } from "lucide-react"
 
 export function AboutSystemSection() {
   const features = [
     {
-      icon: Shield,
-      title: "Segurança Avançada",
+      icon: Atom,
+      title: "Inteligencia Nuclear Integrada",
       description:
-        "Controle rigoroso de acesso e monitoramento de materiais radioativos com protocolos de segurança internacionais.",
+        "cálculos automáticos de decaimento e equilíbrio secular para resultados rápidos, confiáveis e auditáveis.",
     },
     {
       icon: Activity,
