@@ -1,17 +1,18 @@
 "use client"; // necessário para usar useEffect/useState se precisar futuramente
 
 import { Button } from "@/components/ui/button";
+import { ThemeToggle } from "./theme-toggle";
 
 export function Header() {
   return (
     <header
-      className="fixed top-0 left-0 w-full z-50 border border-white/30"
+      className="fixed top-0 left-0 w-full z-50"
       style={{
         background: "rgba(255, 255, 255, 0.15)", // transparente
         backdropFilter: "blur(12px)", // blur intenso
       }}
     >
-      <div className="container flex h-16 items-center justify-between">
+      <div className="flex h-16 items-center justify-between w-full px-4">
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <img
@@ -59,12 +60,15 @@ export function Header() {
         </nav>
 
         {/* Botão */}
-        <Button
-          className="bg-[#A56DCF] hover:bg-[#A56DCF]/90 text-secondary-foreground"
-          asChild
-        >
-          <a href="#contact">Fale Comigo</a>
-        </Button>
+        <div className="flex flex-row items-center gap-2 md:gap-3">
+          <Button
+            className="bg-[#A56DCF] hover:bg-[#A56DCF]/90 text-secondary-foreground"
+            asChild
+          >
+            <a href="#contact">Fale Comigo</a>
+          </Button>
+          <ThemeToggle />
+        </div>
       </div>
     </header>
   );
