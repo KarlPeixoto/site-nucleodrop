@@ -19,22 +19,30 @@ export function AboutMeSection() {
                   </h3>
 
                   <p className="text-muted-foreground mb-4">
-                    Com a experiência adquirida atuando em medicina nuclear, percebi a necessidade de soluções que reduzam desperdícios e aumentem a rastreabilidade por meio de gráficos e relatórios.
+                    Com a experiência adquirida atuando em medicina nuclear,
+                    percebi a necessidade de soluções que reduzam desperdícios e
+                    aumentem a rastreabilidade por meio de gráficos e
+                    relatórios.
                   </p>
 
                   <p className="text-muted-foreground mb-4">
-                   Foi assim que desenvolvi o <span className = "font-bold" >NúcleoDrop</span>: um sistema pensado para modernizar e otimizar os processos em radiofarmácias, garantindo segurança e eficiência em cada etapa do tratamento.
+                    Foi assim que desenvolvi o{" "}
+                    <span className="font-bold">NúcleoDrop</span>: um sistema
+                    pensado para modernizar e otimizar os processos em
+                    radiofarmácias, garantindo segurança e eficiência em cada
+                    etapa do tratamento.
                   </p>
 
                   <p className="text-muted-foreground">
-         Acredito que a tecnologia deve ser uma aliada na busca por tratamentos mais seguros e eficazes na medicina nuclear.
+                    Acredito que a tecnologia deve ser uma aliada na busca por
+                    tratamentos mais seguros e eficazes na medicina nuclear.
                   </p>
                 </div>
 
                 <div className="order-1 md:order-2 flex justify-center">
                   <div className="w-48 h-48 rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
                     <img
-                      className="w-60 h-60 rounded-full"
+                      className="w-70 h-70 rounded-lg"
                       src="/minha-foto.jpeg"
                       alt="Mateus"
                     />

@@ -12,8 +12,7 @@ export function HeroSection() {
             className="mx-auto mb-8 w-40"
           />
           <h1 className="font-serif font-bold text-3xl md:text-5xl text-balance mb-6">
-            Tecnologia em medicina nuclear com <span style={{ textDecoration: "underline" }}>rastreabilidade</span> e{" "}
-            <span style={{ textDecoration: "underline" }}>segurança</span>
+            Tecnologia em medicina nuclear
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground text-pretty mb-8 max-w-2xl mx-auto">
