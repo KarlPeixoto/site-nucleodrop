@@ -1,6 +1,29 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Mail, MessageCircle, Linkedin, Phone } from "lucide-react";
+import { Mail, MessageCircle, Linkedin, Phone, LucideIcon } from "lucide-react";
+
+type ContactCardProps = {
+  icon: LucideIcon;
+  title: string;
+  buttonText: string;
+  href: string;
+};
+
+function ContactCard({ icon: Icon, title, buttonText, href }: ContactCardProps) {
+  return (
+    <Card className="hover:shadow-lg transition-shadow">
+      <CardContent className="p-6 text-center">
+        <div className="h-12 w-12 rounded-full flex items-center justify-center mx-auto mb-4 border-1 border-[#A56DCF]">
+          <Icon className="h-6 w-6 text-[#A56DCF]" />
+        </div>
+        <h3 className="font-semibold mb-2">{title}</h3>
+        <Button variant="outline" size="sm" className="w-full bg-transparent relative z-10" asChild>
+          <a href={href} target="_blank" rel="noopener noreferrer">{buttonText}</a>
+        </Button>
+      </CardContent>
+    </Card>
+  );
+}
 
 export function ContactSection() {
   return (
@@ -17,68 +40,24 @@ export function ContactSection() {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardContent className="p-6 text-center">
-                <div className="h-12 w-12 rounded-full flex items-center justify-center mx-auto mb-4 border-1 border-[#A56DCF]">
-                  <MessageCircle className="h-6 w-6 text-[#A56DCF]" />
-                </div>
-                <h3 className="font-semibold mb-2">WhatsApp</h3>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="w-full bg-transparent relative z-10"
-                  asChild
-                >
-                  <a
-                    href="https://wa.me/5524981295645"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Chamar
-                  </a>
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardContent className="p-6 text-center">
-                <div className="h-12 w-12 rounded-full flex items-center justify-center mx-auto mb-4 border-1 border-[#A56DCF]">
-                  <Mail className="h-6 w-6 text-[#A56DCF]" />
-                </div>
-                <h3 className="font-semibold mb-2">E-mail</h3>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="w-full bg-transparent relative z-10"
-                  asChild
-                >
-                  <a href="mailto:mateus.peixoto@nucleodrop.com.br">Enviar</a>
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardContent className="p-6 text-center">
-                <div className="h-12 w-12 rounded-full flex items-center justify-center mx-auto mb-4 border-1 border-[#A56DCF]">
-                  <Linkedin className="h-6 w-6 text-[#A56DCF]" />
-                </div>
-                <h3 className="font-semibold mb-2">LinkedIn</h3>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="w-full bg-transparent relative z-10"
-                  asChild
-                >
-                  <a
-                    href="https://www.linkedin.com/in/mateus-karl-peixoto-a30656174/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Conectar
-                  </a>
-                </Button>
-              </CardContent>
-            </Card>
+            <ContactCard
+              icon={MessageCircle}
+              title="WhatsApp"
+              buttonText="Chamar"
+              href="https://wa.me/5524981295645"
+            />
+            <ContactCard
+              icon={Mail}
+              title="E-mail"
+              buttonText="Enviar"
+              href="mailto:mateus.peixoto@nucleodrop.com.br"
+            />
+            <ContactCard
+              icon={Linkedin}
+              title="LinkedIn"
+              buttonText="Conectar"
+              href="https://www.linkedin.com/in/mateus-karl-peixoto-a30656174/"
+            />
 
             {/* <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="p-6 text-center">
